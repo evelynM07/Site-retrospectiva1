@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #F5F5F5;
+    --gray: #c8c7c7;
+    --black: #1B1B1B;
+    --dark: #000000;
+    --red: #FF0000;
+    --yellow: #ece868;
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-dark {
+    color: var(--dark);
+}
+
+.color-red {
+    color: var(--red);
+}
+
+header .logo {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    letter-spacing: -2px;
+    padding-left: 20px;
+}
+
+header button {
+    margin-right: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+
+header {
+    padding-top: 15px;
+    background-color: #000000;
+    padding-bottom: 15px;
+}
+
+.botao:hover {
+    background-color: var(--white);
+    background-color: var(--red);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.itens-center {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    padding-right: 20px;
+}
+
+.bg-image {
+    background-image: url(../img/telasec1.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-image h2 {
+    font-weight: 450;
+}
+
+.resumo {
+    background-color: #1B1B1B;
+}
+
+body section div img {
+    border-left: 1px solid white;
+    margin: 30px;
+    width: 50%;
+}
+
+.resumo p {
+
+    font-size: 25;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+body section div {
+    display: flex;
+}
+
+.janefev{
+    background-color: #1B1B1B;
+    justify-content: space-between;
+}
+
+.janefev h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+    background-color: #c8c7c7;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    display: block;
+    max-width: 500px;
+
+}
+
+.card h3{
+    font-size: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+.space-bt{
+    justify-content: space-between;
+}
+.pd-medium{
+    padding: 70px;
+}
+
+.janefev img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.marabr{
+    background-color: #c8c7c7;
+}
+
+.marabr h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cardum {
+    background-color: #1B1B1B;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    display: block;
+    max-width: 300px;
+
+
+}
+
+.cardum h3{
+    font-size: 20px;
+}
+
+.marabr img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.majun{
+    background-color: #1B1B1B;
+}
+
+.majun h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.pez {
+    text-align: center;
+    margin: 15px;
+}
+
+footer{
+    padding: 40px;
+    background-color: #000000;
+}
+
+footer .botao{
+    margin-right: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5F5F5;
+}
